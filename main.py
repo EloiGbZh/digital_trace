@@ -7,12 +7,12 @@ def hello_world():
     prefix_google = """
     <!-- Google tag (gtag.js) -->
     <script async
-    src="https://www.googletagmanager.com/gtag/js?id=344237591"></script>
+    src="https://www.googletagmanager.com/gtag/js?id=4320752133"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-    gtag('config', '344237591');
+    gtag('config', '4320752133');
     </script>
     """
     return prefix_google + "Hello World"
