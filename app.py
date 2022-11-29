@@ -1,5 +1,8 @@
 from flask import Flask
 
+app = Flask(__name__)
+@app.route('/', methods=["GET"])
+
 def hello_world():
     prefix_google = """
     <!-- Google tag (gtag.js) -->
@@ -15,8 +18,6 @@ def hello_world():
     return prefix_google + "Hello World"
 
 
-#app = Flask(__name__)
 
-#@app.route('/', methods=["GET"])
 #def hello_world():
 #    return "Hello World"
