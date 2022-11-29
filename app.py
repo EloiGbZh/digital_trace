@@ -15,8 +15,8 @@ def hello_world():
     return prefix_google + "Hello World"
 
 
-app = Flask(__name__)
+#app = Flask(__name__)
 
-@app.route('/', methods=["GET"])
-def hello_world():
-    return "Hello World"
+#@app.route('/', methods=["GET"])
+#def hello_world():
+#    return "Hello World"
