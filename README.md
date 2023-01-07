@@ -1,11 +1,28 @@
-My App.
-Install deta :
+# deta apllication
 
-windows : $ iwr https://get.deta.dev/cli.ps1 -useb | iex
-mac os / linux : $ curl -fsSL https://get.deta.dev/cli.sh | sh
+## Main features
 
-import requirements
+- hello page : main page
+- See logs : add **/logger** to url 
+- See google request : add **/googlerequest** to url
+- Access google analytics : add **/GArequest** to url 
+- Visualize google trend chart : add **/chart** to url
 
-Log into your deta account : deta login
-deploy : deta deploy
+A notebook "timer_log" is also present is this repo
 
+## Requirements
+flask
+requests
+pytrends
+datetime
+
+## Main command : 
+**Log into deta**
+```sh
+deta login
+```
+
+**Deploy your application**
+```sh
+deta deploy
+```
